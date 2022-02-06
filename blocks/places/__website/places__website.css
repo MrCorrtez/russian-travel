@@ -1,0 +1,4 @@
+.places__website {
+  position: relative;
+  grid-area: website;
+}
