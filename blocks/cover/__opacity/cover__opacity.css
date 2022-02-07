@@ -1,0 +1,8 @@
+.cover__opacity {
+  opacity: .8;
+  background-color: #2A2C2F;
+}
+
+.cover__opacity:hover {
+  opacity: .3;
+}
