@@ -1,7 +1,7 @@
 .cover {
-  margin: 12px 48px 0px 48px;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  max-width: 1184px;
+  display: grid;
+  grid-template-columns: 100%;
+  margin: 12px auto 0 auto;
+  padding: 0 48px 0 48px 0;
 }

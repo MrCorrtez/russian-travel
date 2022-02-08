@@ -1,8 +1,10 @@
 .cover__opacity {
-  opacity: .8;
+  max-width: 1184px;
+  grid-area: 1 / 1 / 2 / 2;
+  opacity: .3;
   background-color: #2A2C2F;
 }
 
 .cover__opacity:hover {
-  opacity: .3;
+  opacity: .8;
 }
