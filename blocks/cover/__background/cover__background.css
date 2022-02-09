@@ -1,4 +1,4 @@
 .cover__background {
-  max-width: 1184px;
+  max-width: 100%;
   grid-area: 1 / 1 / 2 / 2;
 }
