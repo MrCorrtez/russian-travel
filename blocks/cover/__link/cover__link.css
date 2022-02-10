@@ -1,21 +1,22 @@
 .cover__link {
-  color: #FFFFFF;
-  text-decoration: none;
   max-width: 100%;
   display: grid;
   grid-template-columns: 100%;
   position: relative;
+  color: #FFFFFF;
+  text-decoration: none;
 }
 
 .cover__link::before {
   content: "";
   display: block;
   height: 100%;
+  width: 100%;
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
   opacity: .3;
+  transition: opacity 0.5s linear;
   background-color: #2A2C2F;
 }
 
