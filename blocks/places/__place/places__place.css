@@ -16,3 +16,10 @@
     column-gap: 32px;
   }
 }
+
+@media screen and (max-width: 900px) {
+  .places__place {
+    margin-bottom: 73px;
+    column-gap: 28px;
+  }
+}

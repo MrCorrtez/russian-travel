@@ -14,3 +14,9 @@
     margin: 195px auto 0 auto;
   }
 }
+
+@media screen and (max-width: 900px) {
+  .cover__title {
+    margin: 115px auto 0 auto;
+  }
+}

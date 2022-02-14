@@ -5,4 +5,13 @@
   grid-template-columns: repeat(2,max-content);
   column-gap: 18px;
   list-style: none;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 900px) {
+  .header__language-select {
+    margin: 46px 24px 0 0;
+  }
 }
