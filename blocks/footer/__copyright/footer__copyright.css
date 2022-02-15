@@ -5,3 +5,10 @@
   font-weight: normal;
   text-align: right;
 }
+
+@media screen and (max-width: 540px) {
+  .footer__copyright {
+    padding-top: 16px;
+    text-align: left;
+  }
+}

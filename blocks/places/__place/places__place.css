@@ -23,3 +23,16 @@
     column-gap: 28px;
   }
 }
+
+@media screen and (max-width: 540px) {
+  .places__place {
+    margin-bottom: 50px;
+    grid-template-columns: 100%;
+    grid-template-areas:
+    "title"
+    "website"
+    "image"
+    "paragraph";
+    row-gap: 32px;
+  }
+}

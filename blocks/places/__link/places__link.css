@@ -6,3 +6,10 @@
   font-size: 18px;
   line-height: 22px;
 }
+
+@media screen and (max-width: 540px) {
+  .places__link {
+    position: static;
+    padding-top: 20px;
+  }
+}

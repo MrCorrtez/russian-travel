@@ -2,3 +2,10 @@
   position: relative;
   grid-area: website;
 }
+
+@media screen and (max-width: 540px) {
+  .places__website {
+    position: static;
+    padding: 0 16px 0 16px;
+  }
+}
