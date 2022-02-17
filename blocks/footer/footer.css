@@ -14,10 +14,10 @@
   }
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 670px) {
   .footer {
     padding: 64px 16px 24px 16px;
-    grid-template-columns: 100%;
-    grid-template-rows: repeat(5,max-content) 62px;
+    grid-template-columns: min-content;
+    grid-template-rows: repeat(5,max-content) min-content;
   }
 }

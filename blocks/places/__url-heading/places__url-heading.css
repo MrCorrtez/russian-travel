@@ -16,7 +16,7 @@
   }
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 600px) {
   .places__url-heading {
     position: static;
     line-height: 12px;

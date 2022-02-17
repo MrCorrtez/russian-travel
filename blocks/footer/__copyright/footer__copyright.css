@@ -6,7 +6,7 @@
   text-align: right;
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 670px) {
   .footer__copyright {
     padding-top: 16px;
     text-align: left;

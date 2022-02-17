@@ -2,7 +2,7 @@
   grid-area: paragraph;
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 600px) {
   .places__text {
     padding: 0 16px 0 16px;
   }
