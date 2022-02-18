@@ -1,4 +1,4 @@
-.places__link {
+.link_place_places {
   position: absolute;
   bottom: 0px;
   left: 0px;
@@ -8,7 +8,7 @@
 }
 
 @media screen and (max-width: 600px) {
-  .places__link {
+  .link_place_places {
     position: static;
     padding-top: 20px;
   }

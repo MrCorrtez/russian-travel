@@ -1,10 +1,11 @@
 .intro__list {
-  margin-top: 33px;
+  padding: 0;
+  margin: 33px 0 0 0;
   max-width: 690px;
-  margin-bottom: 0;
   font-size: 12px;
   line-height: 18px;
   font-weight: bold;
+  list-style: none;
 }
 
 @media screen and (max-width: 900px) {
@@ -13,9 +14,8 @@
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 450px) {
   .intro__list {
-    margin-top: 34px;
     max-width: 288px;
   }
 }

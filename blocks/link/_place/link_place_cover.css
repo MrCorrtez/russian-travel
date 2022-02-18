@@ -1,13 +1,11 @@
-.cover__link {
+.link_place_cover {
   max-width: 100%;
   display: grid;
   grid-template-columns: 100%;
   position: relative;
-  color: #FFFFFF;
-  text-decoration: none;
 }
 
-.cover__link::before {
+.link_place_cover::before {
   content: "";
   display: block;
   height: 100%;
@@ -20,6 +18,10 @@
   background-color: #2A2C2F;
 }
 
-.cover__link:hover::before {
+.link_place_cover:hover::before {
   opacity: .8;
+}
+
+.link_place_cover:hover {
+  opacity: 1;
 }
